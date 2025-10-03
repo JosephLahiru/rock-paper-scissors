@@ -9,7 +9,7 @@
 <body>
     <div class="container">
         <header>
-            <h1>🪨 📄 ✂️ Rock Paper Scissors</h1>
+            <h1>✊ ✋ ✌ Rock Paper Scissors</h1>
             <p class="subtitle">Challenge the computer in this classic game!</p>
         </header>
 
@@ -19,15 +19,15 @@
                 <div class="choice-buttons">
                     <form method="POST" id="gameForm">
                         <button type="submit" name="choice" value="Rock" class="choice-btn rock-btn">
-                            <span class="emoji">🪨</span>
+                            <span class="emoji">✊</span>
                             <span class="choice-text">Rock</span>
                         </button>
                         <button type="submit" name="choice" value="Paper" class="choice-btn paper-btn">
-                            <span class="emoji">📄</span>
+                            <span class="emoji">✋</span>
                             <span class="choice-text">Paper</span>
                         </button>
                         <button type="submit" name="choice" value="Scissors" class="choice-btn scissors-btn">
-                            <span class="emoji">✂️</span>
+                            <span class="emoji">✌</span>
                             <span class="choice-text">Scissors</span>
                         </button>
                     </form>
@@ -40,7 +40,7 @@
                     <div class="player-choice">
                         <h4>You chose:</h4>
                         <div class="choice-display player">
-                            <span class="choice-emoji">{{ player_choice == 'Rock' and '🪨' or player_choice == 'Paper' and '📄' or player_choice == 'Scissors' and '✂️' }}</span>
+                            <span class="choice-emoji">{{ player_choice == 'Rock' and '✊' or player_choice == 'Paper' and '✋' or player_choice == 'Scissors' and '✌️' }}</span>
                             <span class="choice-name">{{ player_choice }}</span>
                         </div>
                     </div>
